@@ -1,0 +1,93 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-31 09:58:44
+ * @LastEditTime: 2020-12-14 09:16:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \oneproject_one\html\login.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../iconi/iconfont.css">
+</head>
+<body>
+    <div id="loginHeader">
+        <div class=" bx loginHeader">
+            <img src="../images/loginheader.png" alt="" class="fl">
+            <ul class="fr">
+                <li><a href="" style="border: none;">请登录</a></li>
+                <li><a href="./register.html">快速注册<i class="iconi iconfont">&#xe627;</i></a>
+                    <ul id="yinc">
+                        <li><a href="/">买家注册</a></li>
+                        <li><a href="" style="border: none;">卖家认证注册</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">我的码头<i class="iconi iconfont">&#xe627;</i></a>
+                    <ul id="yinc">
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="" style="border: none;">我的优惠券</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </div>
+    </div>
+    <div class="bx AD">
+      <div class="ADfl fl">
+        <img src="../images/login2.jpg" alt="" class="fl">
+      </div>
+      <p class="ymt"><span class="ymtone">洋码头账户登录</span><span class="ymttwo">免费注册</span></p>
+      <div class="ADfr fr">
+          <form class="denglu">
+            <p ><span>手机/邮箱：</span><input type="text" id="username" placeholder="请输入手机/邮箱/用户名"><span class="cwu"></span></p>
+            <p class="ptwo"><span>密码：<input type="password"placeholder="请输入密码" id="password"></span><span class="cwu1"></span></p>
+            <!-- 验证码样式 -->
+            <div id="verifyCodeDemo">
+             <input type="text" value="验证码:" id="btn">
+             <input type="text" id="code_input" placeholder="验证码" >
+             <p id="picyzm"></p>
+             <p id="looks">看不清？<a href="">换张图</a></p>
+            </div>
+            <p class="pfour"><input type="checkbox" class="infour" id="inpt"><span class="spanfour">两周内自动登录</span></p>
+
+            <p><button id="login2">登录</button><span>忘记密码</span></p>
+           <ul class="weibo">
+               <li><svg class="iconi" aria-hidden="true">
+                <use xlink:href="#icon-weibo
+                "></use>
+              </svg><a href="" class="icoone">微博登录</a></li>
+               <li><svg class="iconi" aria-hidden="true">
+                <use xlink:href="#icon-zhifubao
+                "></use>
+              </svg><a href="">支付宝账户登录 </a></li>
+               <li><svg class="iconi" aria-hidden="true">
+                <use xlink:href="#icon-weixin
+                "></use>
+              </svg><a href="">微信登录</a></li>
+           </ul>
+          </form>
+      </div>
+    </div>
+    <div class="endend  bx">
+        <p>© 2014－2020 ymatou.hk 版权所有</p>
+      </div>
+      <script src="../js/cookie.js"></script>
+    <script src="../iconi/iconfont.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/ajax.js"></script>
+    <!-- 引入验证码封装js -->
+    <script src="../js/gverify.js"></script>
+    <!-- 调用验证码的js -->
+    <script src="../js/gverifyi.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* reset用来清除默认样式 */
+@charset "utf-8";
+/* reset用来清除默认样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:16px;
+    font-weight: normal;
+}
+ul,ol,li{
+    list-style: none !important;
+}
+em,i{
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+b,strong{
+    font-weight: normal;
+}
+img,fieldset{
+    border: none;
+}
+img{
+    display: block;
+}
+input{
+    outline: none;
+}
+textarea{
+    /* 禁止用户拖拽大小 */
+    resize: none;
+}
+
+
+/* 封装自己的类名 */
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.border_none{
+    border: none!important;
+}
+.text-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.clear_fix:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clear_fix{
+    zoom:1;
+}
+/* 多行文本 */
+.text-webkit{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* box怪异模式解析计算； */
+:focus { outline:none !important;z-index: 10000 }
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+}

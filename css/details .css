@@ -1,0 +1,164 @@
+@charset "UTF-8";
+#shoppingCar {
+  height: 600px;
+  width: 100%;
+  border-top: 3px solid #f04747;
+  /* 放大镜样式完成------------------ */
+}
+
+#shoppingCar p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#shoppingCar p a {
+  display: inline-block;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+#shoppingCar .box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#shoppingCar .box > .show {
+  width: 420px;
+  height: 426px;
+  border: 1px solid #cccccc;
+  position: relative;
+  text-align: center;
+}
+
+#shoppingCar .box > .show > img {
+  width: 100%;
+  height: 100%;
+}
+
+#shoppingCar .box > .show > .mask {
+  width: 250px;
+  height: 182px;
+  background-color: #ababab;
+  opacity: .4;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#shoppingCar .box > .list {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+#shoppingCar .box > .list > p {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ccc;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#shoppingCar .box > .list > p img {
+  width: 100%;
+  height: 100%;
+}
+
+#shoppingCar .box > .list > p.active {
+  border-color: red;
+}
+
+#shoppingCar .box > .enlarge {
+  /* 容器 与背景图的比例为 1 ：2 */
+  width: 500px;
+  height: 468px;
+  position: absolute;
+  top: 0px;
+  left: 480px;
+  background-size: 750px 1000px;
+  background-position: 0 0;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#shoppingCar .shoppingCarc {
+  height: 400px;
+  width: 500px;
+  margin-top: 80px;
+  margin-left: 25px;
+}
+
+#shoppingCar .shoppingCarc .ps {
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+#shoppingCar .shoppingCarc .ps1 {
+  font-size: 25px;
+  color: red;
+  font-weight: 900px;
+}
+
+#shoppingCar .shoppingCarc .add {
+  display: inline-block !important;
+  border: 1px solid black;
+  width: 30px;
+  height: 32px;
+  background: #cccccc;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#shoppingCar .shoppingCarc .amount {
+  width: 60px;
+  box-sizing: content-box;
+  background: #ffffff;
+  border-right: none;
+  cursor: pointer;
+}
+
+#shoppingCar .shoppingCarc .add1 {
+  border-right: none;
+  margin-right: -5px;
+  cursor: pointer;
+}
+
+#shoppingCar .shoppingCarc .add2 {
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+#shoppingCar .shoppingCarc .btn-lg {
+  outline: none;
+  width: 140px;
+  height: 40px;
+  background: red;
+  border: none;
+  margin-left: 20px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+#spjs {
+  width: 100%;
+  height: 100%;
+}
+
+#spjs .spjs {
+  width: 1200px;
+  height: 600px;
+}
+
+#spjs .spjs img {
+  width: 100%;
+  height: 100%;
+}

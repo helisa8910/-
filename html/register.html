@@ -1,0 +1,87 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-31 16:47:27
+ * @LastEditTime: 2020-12-11 17:58:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \oneproject_one\html\register.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../iconi/iconfont.css">
+    <script src="../iconi/iconfont.js"></script>
+    <!-- 引入正则的插件是jq的 -->
+   <script src="../jquery/jquery.min.js"></script>
+   <script src="../validate/jquery.validate.min.js"></script>
+   <!-- 提示信息的中插件 -->
+   <script src="../validate/localization/messages_zh.min.js"></script>
+</head>
+<body>
+    <div id="loginHeader">
+        <div class=" bx loginHeader">
+            <img src="../images/loginheader.png" alt="" class="fl">
+            <ul class="fr">
+                <li><a href="" style="border: none;">请登录</a></li>
+                <li><a href="/">快速注册<i class="iconi iconfont">&#xe627;</i></a>
+                    <ul id="yinc">
+                        <li><a href="/">买家注册</a></li>
+                        <li><a href="" style="border: none;">卖家认证注册</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">我的码头<i class="iconi iconfont">&#xe627;</i></a>
+                    <ul id="yinc">
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="" style="border: none;">我的优惠券</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bx zhuche">
+        <div class="zhuchefl fl">
+            手机注册
+           <img src="../images/jiao.jpg" alt="">
+        </div>
+        <div class="zhuchefr fr">
+            <p class="p1"><span>你是不是想注册为买手？请</span><a href="/">点击这里</a></p>
+        </div>
+    </div>
+    <div class="bx telzhu">
+        <form class="telzhufl fl" id="telzhu">
+            <p><label class="la1" >手机号码:</label><input type="text" placeholder="请输入手机号码" name="tel" id="tel"></p>
+            <p><label  class="la1">短息验证码:</label><input type="text" placeholder="请输入验证码"><button class="but1">获取验证码</button></p>
+            <p><label  class="la1"> 登录密码:</label><input type="password" placeholder="请输入登录密码" id='passWrod' name="passwrod"></p>
+            <p><label  class="la1">确认密码:</label><input type="password" placeholder="请输入确认密码" name="qrpasswrod" ></p>
+            <p><label  class="la1" >用户名:</label><input type="text" placeholder="请输入用户名" id="userName" name="username"></p>
+            <label class="endla"><input checked="checked" id="IsAgreeContract" name="IsAgreeContract" placeholder="需同意协议才能注册" style="margin: 5px 5px;" type="checkbox" value="true"><input name="IsAgreeContract" type="hidden" value="false"></label>
+            <label class="fill_left">
+                我已经认真阅读并同意洋码头的《<a target="_blank" class="blue" href="//help.ymatou.com/protocol.html">用户协议</a>》。
+              </label>
+            <button class="btn2">注册</button> 
+        </form>
+        <div class="telzhufr fr">
+            <p>您也可以使用下列帐号登录洋码头：</p>
+            <ul>
+                <li><svg class="iconi" aria-hidden="true"><use xlink:href="#icon-weibo"></use> </svg><a href="/">使用新浪微博账户登录</a></li>
+                <li><svg class="iconi" aria-hidden="true"><use xlink:href="#icon-zhifubao"></use> </svg><a href="/">使用支付宝账户登录</a></li>
+                <li class="endli"><svg class="iconi" aria-hidden="true"><use xlink:href="#icon-weixin "></use> </svg><a href="/">使用微信账户登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="endtel bx">
+        <span>© 2014－2020 ymatou.hk 版权所有</span>
+      </div>
+   <script src="../js/ajax.js"></script>
+   <script src="../js/cookie.js"></script>
+   <script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+.zhuche {
+  height: 80px;
+  border-bottom: 3px solid #cccccc;
+}
+.zhuche .zhuchefl {
+  width: 150px;
+  height: 80px;
+  border-bottom: 3px solid #f04e00;
+  color: #f04e00;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 80px;
+  position: relative;
+}
+.zhuche .zhuchefl img {
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+}
+.zhuche .zhuchefr .p1 {
+  margin-top: 60px;
+  font-size: 12px;
+}
+.zhuche .zhuchefr span {
+  color: #cccccc;
+}
+
+.telzhu {
+  width: 1200px;
+  height: 400px;
+}
+.telzhu .telzhufl {
+  width: 400px;
+  height: 500px;
+}
+.telzhu .telzhufl p {
+  margin: 25px 0px 25px 0px;
+  font-size: 12px;
+  line-height: 25px;
+}
+.telzhu .telzhufl p .la1 {
+  display: inline-block;
+  font-size: 12px;
+  color: #cccccc;
+  width: 105px;
+  height: 25px;
+  text-align: right;
+  margin-right: 10px;
+}
+.telzhu .telzhufl p input {
+  font-size: 12px;
+  height: 25px;
+  color: #cccccc;
+}
+.telzhu .telzhufl p .but1 {
+  color: #ffffff;
+  background-color: #8fa0ab;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.telzhu .telzhufl .fill_left {
+  font-size: 12px;
+  color: #cccccc;
+}
+.telzhu .telzhufl .endla {
+  margin-left: 110px;
+}
+.telzhu .telzhufl .btn2 {
+  width: 67px;
+  height: 30px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  background-color: #f04e00;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 115px;
+}
+.telzhu .telzhufr {
+  margin-top: 30px;
+}
+.telzhu .telzhufr p {
+  font-size: 12px;
+  color: #cccccc;
+  margin-bottom: 10px;
+}
+.telzhu .telzhufr .endli {
+  border-bottom: none;
+}
+.telzhu .telzhufr .iconi {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  font-size: 25px;
+  padding-left: 10px;
+  line-height: 35px;
+  padding-right: 5px;
+}
+.telzhu .telzhufr ul {
+  width: 192px;
+  height: 104px;
+  border: 1px solid #cccccc;
+}
+.telzhu .telzhufr ul li {
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px dashed #cccccc;
+}
+.telzhu .telzhufr ul li a {
+  display: inline-block;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.endtel {
+  width: 1200px;
+}
+.endtel span {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 20px;
+}

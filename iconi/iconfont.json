@@ -1,0 +1,58 @@
+{
+  "id": "1953260",
+  "name": "人民币",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1188",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5427697",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9186712",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "6119218",
+      "name": "下-三角",
+      "font_class": "below-s",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "15368",
+      "name": "上三角形",
+      "font_class": "shangsanjiaoxing",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "9144335",
+      "name": "左键",
+      "font_class": "zuojian",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13149871",
+      "name": "左键",
+      "font_class": "zuojian1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

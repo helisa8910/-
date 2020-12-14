@@ -1,0 +1,193 @@
+.AD {
+  width: 1200px;
+  height: 500px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.AD .ymt {
+  width: 515px;
+  height: 30px;
+  padding-left: 685px;
+  line-height: 30px;
+}
+
+.AD .ymt .ymtone {
+  color: #747774;
+  font-weight: 900;
+  border-right: 1px solid #cccccc;
+  padding-right: 5px;
+}
+
+.AD .ymt .ymttwo {
+  color: #cccccc;
+  padding-left: 5px;
+}
+
+.AD .ADfl img {
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+.AD .ADfr {
+  width: 362px;
+  height: 342px;
+  background-color: #b4afaf;
+  border: 1px solid #646464;
+  margin-right: 150px;
+}
+
+.AD .ADfr .iconi {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.AD .ADfr .denglu {
+  width: 352px;
+  height: 332px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 6px;
+}
+
+.AD .ADfr .denglu span {
+  font-size: 12px;
+  color: #383535;
+}
+
+.AD .ADfr .denglu p {
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.AD .ADfr .denglu p input {
+  font-size: 12px;
+  height: 25px;
+}
+
+.AD .ADfr .denglu p .inthere {
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.AD .ADfr .denglu p .spanfour {
+  margin-left: 8px;
+}
+
+.AD .ADfr .denglu p .infour {
+  width: 10px;
+  height: 10px;
+}
+
+.AD .ADfr .denglu p button {
+  width: 65px;
+  height: 30px;
+  background-color: #f04e00;
+  border: 1px solid #ccc7c7;
+  color: #ffffff;
+  margin-left: 62px;
+  margin-right: 20px;
+}
+
+.AD .ADfr .denglu .ptwo {
+  margin-left: 38px;
+}
+
+.AD .ADfr .denglu .pthere {
+  margin-left: 25px;
+}
+
+.AD .ADfr .denglu .pthere .imgthere {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #cccccc;
+}
+
+.AD .ADfr .denglu .pfour {
+  margin-left: 75px;
+}
+
+.AD .ADfr .weibo {
+  width: 280px;
+  border-top: 1px solid #cccccc;
+  height: 80px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.AD .ADfr .weibo li {
+  float: left !important;
+  margin-top: 10px;
+}
+
+.AD .ADfr .weibo li a {
+  display: inline-block;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.AD .ADfr .weibo li a:hover {
+  color: #cc3333;
+}
+
+.AD .ADfr .weibo li .iconi {
+  margin: 0px 6px 0px 6px;
+}
+
+.AD .ADfr .weibo .icoone {
+  border-right: 1px solid #cccccc;
+  padding-right: 8px;
+}
+
+.endend {
+  text-align: center;
+  height: 40px;
+  width: 1200px;
+}
+
+.endend p {
+  margin: auto;
+}
+
+#picyzm {
+  width: 90px;
+  height: 15px;
+  display: inline-block;
+}
+
+#code_input {
+  width: 50px;
+  height: 30px;
+  margin: 20px 0px 0px 0px;
+}
+
+#verifyCodeDemo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  margin: 15px 0px 0px -3px;
+  color: black;
+  border: 0;
+  width: 50px;
+  height: 40px;
+}
+
+#looks {
+  width: 90px;
+  height: 20px;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 15px;
+}

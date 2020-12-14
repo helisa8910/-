@@ -1,0 +1,93 @@
+{
+  "id": "1953260",
+  "name": "人民币",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2015999",
+      "name": "严格质检",
+      "font_class": "yangezhijian",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "2216986",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2356352",
+      "name": "全球",
+      "font_class": "cloud-global",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "6976757",
+      "name": "正",
+      "font_class": "zheng",
+      "unicode": "ea25",
+      "unicode_decimal": 59941
+    },
+    {
+      "icon_id": "7668544",
+      "name": "我的买手",
+      "font_class": "wodemaishou",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "8359130",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "10039305",
+      "name": "地标",
+      "font_class": "dibiao",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10721835",
+      "name": "心 爱心",
+      "font_class": "xinaixin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "17188363",
+      "name": "分类",
+      "font_class": "leimupinleifenleileibie",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12560765",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "12656690",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "15773993",
+      "name": "购物车",
+      "font_class": "che",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
